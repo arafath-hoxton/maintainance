@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Under Maintenance</title>
+  </head>
+  <body class="bg-gray-900 text-white antialiased">
+    <div class="min min-h-screen flex flex-col justify-around items-center">
+      <img src="./white-logo.png" class="h-28 mt-10" />
+      <div class="text-center">
+        <lottie-player
+          src="./maintainance.json"
+          background="transparent"
+          speed="1"
+          style="width: 500px; height: 300px"
+          loop
+          autoplay
+        ></lottie-player>
+        <h1 class="text-3xl font-bold pb-5">We'll be right back!</h1>
+        <div class="bg-gray-800 rounded-xl shadow p-4">
+          <p class="max-w-lg text-left">
+            Please be aware that our Client Portal is unavailable on Saturday
+            19/02 from 4.30am to 2.30pm UK time (8.30am to 6.30pm UAE time) as
+            the IT team is performing a major system upgrade at this time.
+          </p>
+          <p class="max-w-lg pt-5 text-left">
+            You will be notified when the maintenance is complete and services
+            have been restored.
+          </p>
+        </div>
+      </div>
+      <p class="pt-5">
+        &copy; 2022 Hoxton Capital Management. All Rights Reserved.
+      </p>
+    </div>
+  </body>
+</html>
